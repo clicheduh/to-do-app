@@ -1,0 +1,76 @@
+body {
+  font-family: "Fira Code";
+  background-color: #272727;
+  color: #fff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+
+#todo-input {
+  margin: 30px auto 50px;
+  width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 40px;
+  color: #fff;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  font-family: "Fira Code";
+  font-weight: 500;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #14a76c;
+  border-radius: 5px;
+  border: none;
+  font-family: "Fira Code";
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ff652f;
+  cursor: pointer;
+}
+
+.item {
+  margin: 20px auto;
+  border: 1.5px solid #fff;
+  border-radius: 30px;
+  width: 500px;
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+}
+
+.item p {
+  padding-left: 25px;
+  padding-right: 10px;
+  display: inline-block;
+  width: 92%;
+  /* background-color: yellow; */
+}
+
+.item p:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+#myGif {
+  display: none;
+  width: 400px;
+}
